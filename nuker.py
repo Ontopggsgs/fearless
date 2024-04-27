@@ -4,7 +4,7 @@ from colorama import init, Fore
 import asyncio
 import time
 
-print(Fore.LIGHTBLUE_EX +  "dsc.gg/fearlessxyz or https://discord.com/invite/fearlessxyz ")
+print(Fore.LIGHTBLUE_EX +  "zitsuro owni ")
 print(Fore.LIGHTRED_EX + '''
 
                  
@@ -35,7 +35,7 @@ spam_message = input("spam message: ")
 new_channels_name = input("new channels name: ")
 async def send_message_periodically(channel):
     while True:
-        await channel.send("@everyone nuked by https://discord.com/invite/fearlessxyz (join)" + spam_message)
+        await channel.send("@everyone nuked by zitsuro umri zidys EZ!!" + spam_message)
         await asyncio.sleep(0)
         print(Fore.GREEN + "spammed:", channel.name)
 
@@ -81,7 +81,7 @@ async def on_ready():
             pass
     try:
         
-        await guild.edit(name="nuked by fearless tool")
+        await guild.edit(name="nuked by zitsuro!")
         await print("server name changed")
     except:
         print("name edit error")
